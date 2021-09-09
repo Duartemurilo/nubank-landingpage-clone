@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Banner from '../Components/Banner'
+import Header from '../Components/Header'
 import { HomePageContainer } from '../Styles/Pages/HomePageStyles'
 
 function HomePage() {
@@ -21,6 +22,7 @@ function HomePage() {
   }, [])
   return (
     <HomePageContainer>
+      <Header whiteBackground={whiteBackground} />
       <Banner />
     </HomePageContainer>
   )
