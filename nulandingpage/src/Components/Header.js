@@ -2,7 +2,6 @@ import React from 'react'
 import { ButtonLogin, HeaderContainer, HeaderLeft, HeaderRight, NavLinks } from '../Styles/Componets/HeaderStyles'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown'
 import { LinkButton } from '../Styles/Global.js/Global'
-import { Color } from '../Constants/color'
 
 function Header({ currentBackground }) {
   return (
@@ -10,14 +9,11 @@ function Header({ currentBackground }) {
       {currentBackground ? (
         <HeaderContainer style={{ backgroundColor: 'white', boxShadow: '0px 28px 50px -30px #9400D3' }}>
           <HeaderLeft>
-            <div style={{ display: 'flex' }}>
-              <NavLinks>Conta Digital</NavLinks>
-              <KeyboardArrowDownIcon style={{ color: { Color }, cursor: 'pointer', marginLeft: -10 }} />
-            </div>
-            <div style={{ display: 'flex' }}>
-              <NavLinks>Para Você</NavLinks>
-              <KeyboardArrowDownIcon style={{ color: { Color }, cursor: 'pointer' }} />
-            </div>
+            <NavLinks>Nubank </NavLinks> <KeyboardArrowDownIcon style={{ cursor: 'pointer' }} />
+            <NavLinks>Conta Digital</NavLinks>
+            <KeyboardArrowDownIcon style={{ cursor: 'pointer', marginRight: '-10px' }} />
+            <NavLinks>Para Você</NavLinks>
+            <KeyboardArrowDownIcon style={{ cursor: 'pointer' }} />
           </HeaderLeft>
           <HeaderRight>
             <LinkButton>Quero ser um Nubank</LinkButton>
@@ -27,12 +23,11 @@ function Header({ currentBackground }) {
       ) : (
         <HeaderContainer>
           <HeaderLeft>
-            <NavLinks>Nubank </NavLinks>{' '}
-            <KeyboardArrowDownIcon style={{ color: { Color }, cursor: 'pointer', marginRight: '-10px' }} />
+            <NavLinks>Nubank </NavLinks> <KeyboardArrowDownIcon style={{ cursor: 'pointer' }} />
             <NavLinks>Conta Digital</NavLinks>
-            <KeyboardArrowDownIcon style={{ color: { Color }, cursor: 'pointer' }} />
+            <KeyboardArrowDownIcon style={{ cursor: 'pointer', marginRight: '-10px' }} />
             <NavLinks>Para Você</NavLinks>
-            <KeyboardArrowDownIcon style={{ color: { Color }, cursor: 'pointer' }} />
+            <KeyboardArrowDownIcon style={{ cursor: 'pointer' }} />
           </HeaderLeft>
           <HeaderRight>
             <LinkButton>Quero ser um Nubank</LinkButton>
