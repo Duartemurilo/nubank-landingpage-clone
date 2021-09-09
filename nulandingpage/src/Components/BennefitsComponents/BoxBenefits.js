@@ -1,12 +1,13 @@
 import React from 'react'
-import { IconBenefits } from '../Styles/Componets/RowBenefitsStyle'
+
 import AttachMoneyIcon from '@material-ui/icons/AttachMoney'
 import CachedIcon from '@material-ui/icons/Cached'
 import CreditCardIcon from '@material-ui/icons/CreditCard'
 import HeadsetIcon from '@material-ui/icons/Headset'
+import { IconBenefits } from '../../Styles/Componets/RowBenefitsStyle'
 
 function BoxBenefits({ type }) {
-  const teste = () => {
+  const renderBennefits = () => {
     switch (type) {
       case '1':
         return (
@@ -38,7 +39,7 @@ function BoxBenefits({ type }) {
     }
   }
 
-  return <div>{teste()}</div>
+  return <div>{renderBennefits()}</div>
 }
 
 export default BoxBenefits
