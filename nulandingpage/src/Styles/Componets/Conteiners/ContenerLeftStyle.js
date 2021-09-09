@@ -13,10 +13,5 @@ export const ContainerLeftDIV = styled.div`
 export const ContainerBenefits = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
-  margin-top: 5vh;
-  height: 50vh;
-  font-size: 16px;
 `
