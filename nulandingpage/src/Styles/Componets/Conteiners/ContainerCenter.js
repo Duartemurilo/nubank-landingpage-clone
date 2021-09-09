@@ -17,7 +17,6 @@ export const ContainerCenter = styled.div`
   height: 100%;
   width: 30vw;
   margin-top: 10vh;
-  position: relative;
 `
 
 export const ImageCenter = styled.img`
