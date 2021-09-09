@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Banner from '../Components/Banner'
 import Header from '../Components/Header'
 import { HomePageContainer } from '../Styles/Pages/HomePageStyles'
+import Container from '../Components/Container/Container.js'
 
 function HomePage() {
   const [whiteBackground, setBackground] = useState(false)
@@ -22,8 +23,9 @@ function HomePage() {
   }, [])
   return (
     <HomePageContainer>
-      <Header whiteBackground={whiteBackground} />
+      <Header currentBackground={whiteBackground} />
       <Banner />
+      <Container />
     </HomePageContainer>
   )
 }
