@@ -7,6 +7,7 @@ import RowBenifits from '../Components/BennefitsComponents/RowBeniits'
 import DigitalCount from '../Components/DigitalCount/DigitalCount'
 import Cards from '../Components/Cards'
 import Yield from '../Components/ Yield'
+import Footer from '../Components/Footer'
 
 function HomePage() {
   const [whiteBackground, setBackground] = useState(false)
@@ -34,6 +35,7 @@ function HomePage() {
       <DigitalCount />
       <Cards />
       <Yield />
+      <Footer />
     </HomePageContainer>
   )
 }
