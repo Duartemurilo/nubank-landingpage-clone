@@ -5,9 +5,9 @@ import {
   RowBenefitsLeft,
   RowBenefitsRight,
   RowContainer,
-} from '../Styles/Componets/RowBenefitsStyle'
+} from '../../Styles/Componets/RowBenefitsStyle'
 
-import { Body } from '../Styles/Global.js/Global'
+import { Body } from '../../Styles/Global.js/Global'
 import BoxBenefits from './BoxBenefits'
 
 function RowBenifits() {

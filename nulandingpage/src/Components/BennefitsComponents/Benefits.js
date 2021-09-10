@@ -1,6 +1,7 @@
 import React from 'react'
-import { BenefitsDiv, CheckCircle } from '../Styles/Componets/BenfitsStyles'
+
 import CheckIcon from '@material-ui/icons/Check'
+import { BenefitsDiv, CheckCircle } from '../../Styles/Componets/BenfitsStyles'
 
 function Benefits({ title, text }) {
   return (

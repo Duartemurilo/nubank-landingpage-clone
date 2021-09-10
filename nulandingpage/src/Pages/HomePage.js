@@ -3,7 +3,9 @@ import Banner from '../Components/Banner'
 import Header from '../Components/Header'
 import { HomePageContainer } from '../Styles/Pages/HomePageStyles'
 import Container from '../Components/Container/Container.js'
-import RowBenifits from '../Components/RowBeniits'
+import RowBenifits from '../Components/BennefitsComponents/RowBeniits'
+import DigitalCount from '../Components/DigitalCount/DigitalCount'
+import Cards from '../Components/Cards'
 
 function HomePage() {
   const [whiteBackground, setBackground] = useState(false)
@@ -28,6 +30,8 @@ function HomePage() {
       <Banner />
       <Container />
       <RowBenifits />
+      <DigitalCount />
+      <Cards />
     </HomePageContainer>
   )
 }

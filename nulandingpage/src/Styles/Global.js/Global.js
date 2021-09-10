@@ -84,3 +84,20 @@ export const DivButtomBenfits = styled.div`
     opacity: 1;
   }
 `
+export const DivInfo = styled.div`
+  display: flex;
+  width: 100%;
+  height: 30%;
+  align-items: center;
+  h4 {
+    margin: 0;
+    margin-left: 1vw;
+  }
+  p {
+    margin: 0;
+    margin-top: 6px;
+    margin-left: 1vw;
+    font-size: 15px;
+    color: #767576;
+  }
+`
