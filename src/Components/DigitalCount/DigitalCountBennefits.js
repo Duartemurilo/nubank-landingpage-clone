@@ -45,7 +45,6 @@ function DigitalCountBennefits({ type }) {
           </DivInfo>
         )
       default:
-        console.log(`n deu nd `)
     }
   }
   return <div>{renderBennefits()}</div>
