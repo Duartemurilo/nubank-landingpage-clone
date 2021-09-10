@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-
-
 export const YieldLeft = styled.div`
   display: flex;
   width: 50%;
@@ -61,7 +59,7 @@ export const ContainerValue = styled.div`
   align-items: center;
   height: 60%;
   width: 100%;
-  p{
+  p {
     background-clip: text;
     font-weight: bold;
     font-family: 'Sora', sans-serif;
@@ -100,8 +98,6 @@ export const YieldRight = styled.div`
     color: #232224;
     margin-bottom: 0;
   }
-
-  
 `
 
 export const YieldValues = styled.div`
@@ -115,23 +111,23 @@ export const YieldValues = styled.div`
 
 export const BorderBottomYiel = styled.div`
   background-color: rgb(130, 10, 209);
-  height:0.6vh;
+  height: 0.6vh;
   width: 90%;
 `
 
 export const TotalValue = styled.p`
-    color: black;
-    margin-top: 1vh;
-    font-family: 'Sora', sans-serif;
-    font-size: 80px;
-    margin-bottom: 0px;
-    margin-bottom: 0;
-` 
+  color: black;
+  margin-top: 1vh;
+  font-family: 'Sora', sans-serif;
+  font-size: 80px;
+  margin-bottom: 0px;
+  margin-bottom: 0;
+`
 
 export const Text = styled.p`
-    color: #767576;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    margin-top: 26vh;
-    margin-bottom: 0;
+  color: #767576;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  margin-top: 26vh;
+  margin-bottom: 0;
 `
