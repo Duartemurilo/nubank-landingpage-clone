@@ -10,8 +10,8 @@ function Benefits({ title, text }) {
         <CheckIcon />
       </CheckCircle>
       <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <p style={{ marginLeft: '16px', marginTop: 0, marginBottom: 0 }}>{title}</p>
-        <p style={{ marginLeft: '16px', color: '#767576', marginTop: 2, marginBottom: 0 }}>{text}</p>
+        <p>{title}</p>
+        <p style={{ color: '#767576', marginTop: 2 }}>{text}</p>
       </div>
     </BenefitsDiv>
   )

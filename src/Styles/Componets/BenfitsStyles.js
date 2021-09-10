@@ -8,6 +8,11 @@ export const BenefitsDiv = styled.div`
   color: #9400d3;
   font-size: 16px;
   margin-left: 1.8vw;
+  p {
+    margin-left: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 `
 
 export const CheckCircle = styled.div`
