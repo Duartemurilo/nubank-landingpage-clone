@@ -27,7 +27,7 @@
 
 <h1>🚀  Como executar o projeto</h1>
 
-<h2>Pré-requisitos:</h2>
+<p>Pré-requisitos:</p>
 
 <p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, Node.js. Além disto é bom ter um editor para trabalhar com o código como VSCode</p>
 
