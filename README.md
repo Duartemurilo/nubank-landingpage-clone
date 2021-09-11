@@ -1,4 +1,4 @@
-<img src = "./src/Assents/printTela.png"/>
+<img widht = '550' src = "./src/Assents/videoPage.gif"/>
 
 <h1 align="center">Nubank Clone</h1>
 
@@ -37,10 +37,8 @@
 
 \$ npm run start
 
-\ O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 
 <h1>✏️ Autor</h1>
 
-<img src="https://web.whatsapp.com/816e2d97-0a51-4a08-ac16-285fc37d22d6"/>
-
-<img alt="Perfil" src = "./Assents/PerfilPhoto.jpeg"/>
+<img alt="Perfil" src = "./src/Assents/PerfilPhoto.jpeg"/>
