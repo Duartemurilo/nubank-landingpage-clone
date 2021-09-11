@@ -45,4 +45,8 @@
 
 <h1>✏️ Autor</h1>
 
-<img widht = '150' height = '80' alt="Perfil" src = "./src/Assents/PerfilPhoto.jpeg"/>
+<img style="border-radius: 50%  widht = '250' height = '150' alt="Perfil" src = "./src/Assents/PerfilPhoto.jpeg"/>
+                                                                                                              
+<a href="https://github.com/Duartemurilo">Murilo duarte 🌐</a></td>
+                                                      
+                                                      
