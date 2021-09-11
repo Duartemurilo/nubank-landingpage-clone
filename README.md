@@ -1,4 +1,6 @@
-<img widht = '550' src = "./src/Assents/videoPage.gif"/>
+<p align="center">
+ <img widht = '700' alt="Perfil" src = "./src/Assents/printTela.png"/>
+</p>
 
 <h1 align="center">Nubank Clone</h1>
 
@@ -19,7 +21,9 @@
 
 <h3>WEB</h3>
 
-<img alt="Perfil" src = "./src/Assents/printTela.png"/>
+<p align="center">
+ <img widht = '500'  src = "./src/Assents/videoPage.gif"/>
+</p>
 
 <h1>🚀  Como executar o projeto</h1>
 
@@ -37,7 +41,7 @@
 
 \$ npm run start
 
-O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+<p>O servidor inciará na porta:3000 - acesse <http://localhost:3000></p>
 
 <h1>✏️ Autor</h1>
 
