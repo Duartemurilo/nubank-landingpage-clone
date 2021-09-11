@@ -9,7 +9,7 @@
  <a href="#autor">Autor</a>
 </p>
 
-<h1>💻 Sobre o projeto</h1>
+<h1 id = 'objetivo'>💻 Sobre o projeto</h1>
 
 <p> 💳  Projeto que tem o intuito de clonar a landingpage  do nubank com o proposito de aprender mais sobre estilização.</p>
 
