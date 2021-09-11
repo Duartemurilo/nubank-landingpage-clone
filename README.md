@@ -1,4 +1,4 @@
-<img src = "./src/Images/printTela.png"
+<img src = "./Assents/printTela.png"
 
 <h1 align="center">Nubank Clone</h1>
 
@@ -11,11 +11,15 @@
 
 <p> 💳  Projeto que tem o intuito de clonar a landingpage  do nubank com o proposito de aprender mais sobre estilização.</p>
 
+<h1>✅ Status do Projeto</h1>
+
+<h4>🚧  Em construção...  🚧</h4>
+
 <h1>🎨 Layout</h1>
 
 <h3>WEB</h3>
 
-<img src = "./src/Images/printTela.png"
+<img src = "./Assents/printTela.png"
 
 <h1>🚀  Como executar o projeto</h1>
 
@@ -25,11 +29,11 @@
 
 <h2>🧭 Rodando a aplicação web (Frontend)</h2>
 
-# Instale as dependências
+<h3>Instale as dependências</h3>
 
 \$ npm install
 
-# Execute a aplicação em modo de desenvolvimento
+<h3>Execute a aplicação em modo de desenvolvimento</h3>
 
 \$ npm run start
 
@@ -37,4 +41,6 @@
 
 <h1>✏️ Autor</h1>
 
-<img src = "./src/Images/PerfilPhoto.jpeg"
+<img src="https://web.whatsapp.com/816e2d97-0a51-4a08-ac16-285fc37d22d6"/>
+
+<img src = "./Assents/PerfilPhoto.jpeg"
