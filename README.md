@@ -45,4 +45,4 @@
 
 <h1>✏️ Autor</h1>
 
-<img alt="Perfil" src = "./src/Assents/PerfilPhoto.jpeg"/>
+<img widht = '150' height = '80' alt="Perfil" src = "./src/Assents/PerfilPhoto.jpeg"/>
