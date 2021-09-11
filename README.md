@@ -9,7 +9,7 @@
  <a href="#autor">Autor</a>
 </p>
 
-<h1 id = 'objetivo'>💻 Sobre o projeto</h1>
+<h1>💻 Sobre o projeto</h1>
 
 <p> 💳  Projeto que tem o intuito de clonar a landingpage  do nubank com o proposito de aprender mais sobre estilização.</p>
 
@@ -43,7 +43,7 @@
 
 <p>O servidor inciará na porta:3000 - acesse <http://localhost:3000></p>
 
-<h1>✏️ Autor</h1>
+<h1 id = 'autor'>✏️ Autor</h1>
 
 <img  widht = '300' height = '200' alt="Perfil" src = "./src/Assents/PerfilPhoto.jpeg"/>
                                                                                                               
