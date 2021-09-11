@@ -47,6 +47,6 @@
 
 <img style ="border-radius: 50%"  widht = '300' height = '150' alt="Perfil" src = "./src/Assents/PerfilPhoto.jpeg"/>
                                                                                                               
-<a href="https://github.com/Duartemurilo">Murilo duarte 🌐</a></td>
+<a href="https://github.com/Duartemurilo">duarte Murilo 🌐</a></td>
                                                       
                                                       
