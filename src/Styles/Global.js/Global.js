@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components'
+import BreakPoints from '../../Constants/breakPoints'
 
 export const Body = styled.div`
   display: flex;
@@ -18,6 +19,9 @@ export const LinkButton = styled.a`
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  ${`@media only screen and ${BreakPoints.device.cel}{
+   width:70vw;
+  }`}
 `
 
 export const IconContainer = styled.div`

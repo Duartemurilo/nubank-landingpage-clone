@@ -9,11 +9,9 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 function Footer() {
   return (
     <FooterContainer>
-      <div>
-        <p style={{ color: 'black', cursor: 'none' }}> Nao tem nada aqui haha</p>
-      </div>
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-        <p>Feito pelo Brabo do murilo</p>
+      <div id="braboMurilo">
+        <p>Feito pelo Brabo do </p>
+        <p id="murilo"> murilo </p>
         <FavoriteIcon />
       </div>
       <SocialMidias>

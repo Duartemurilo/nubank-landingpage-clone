@@ -6,9 +6,9 @@ import {
   YieldLeft,
   YieldRight,
   YieldValues,
+  BodyYield,
 } from '../Styles/Componets/ YieldStyles'
 
-import { Body } from '../Styles/Global.js/Global'
 import CardYield from './CardYield'
 
 function Yield() {
@@ -57,7 +57,7 @@ function Yield() {
   }
 
   return (
-    <Body>
+    <BodyYield>
       <YieldLeft>
         <h5>DINHEIRO</h5>
         <h2>Seu dinheiro pode virar mais dinheiro.</h2>
@@ -80,7 +80,7 @@ function Yield() {
           </Text>
         </YieldValues>
       </YieldRight>
-    </Body>
+    </BodyYield>
   )
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import {
+  BodyRow,
   ContainerTextIcon,
   RowBenefitsContainer,
   RowBenefitsLeft,
@@ -7,20 +8,11 @@ import {
   RowContainer,
 } from '../../Styles/Componets/RowBenefitsStyle'
 
-import { Body } from '../../Styles/Global.js/Global'
 import BoxBenefits from './BoxBenefits'
 
 function RowBenifits() {
   return (
-    <Body
-      style={{
-        marginTop: '30vh',
-        alignItems: 'center',
-        justifyContent: 'center',
-        flexDirection: 'column',
-        color: '#9400d3',
-      }}
-    >
+    <BodyRow>
       <RowBenefitsContainer>
         <RowBenefitsLeft>
           <div>
@@ -28,6 +20,7 @@ function RowBenifits() {
             <h2>Por que Nubank?</h2>
           </div>
         </RowBenefitsLeft>
+
         <RowBenefitsRight>
           <RowContainer>
             <ContainerTextIcon>
@@ -49,7 +42,7 @@ function RowBenifits() {
           </RowContainer>
         </RowBenefitsRight>
       </RowBenefitsContainer>
-    </Body>
+    </BodyRow>
   )
 }
 

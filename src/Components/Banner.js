@@ -1,15 +1,18 @@
 import React from 'react'
-import { BodyBannerLeft, BodyBannerRight, CardImage, TextoBanner } from '../Styles/Componets/BannerStyle'
+import { BodyBanner, BodyBannerLeft, BodyBannerRight, CardImage, TextoBanner } from '../Styles/Componets/BannerStyle'
 
 import AppleIcon from '@material-ui/icons/Apple'
 import ShopIcon from '@material-ui/icons/Shop'
-import { Body, LinkButton } from '../Styles/Global.js/Global'
+import { LinkButton } from '../Styles/Global.js/Global'
 
-function Banner({ whiteBackground }) {
+function Banner() {
   return (
-    <Body>
+    <BodyBanner>
       <BodyBannerLeft>
-        <h1 style={{ marginTop: '0' }}>Ser Nubank é reinventar sua vida financeira </h1>
+        <div>
+          <h1 style={{ marginTop: '0' }}>Ser Nubank é reinventar sua vida financeira </h1>
+        </div>
+
         <TextoBanner>
           <p>
             Conta com rendimento acima da poupança, cartão de crédito sem anuidade e o melhor: resolva tudo pelo app.
@@ -25,7 +28,7 @@ function Banner({ whiteBackground }) {
       <BodyBannerRight>
         <CardImage src="https://fdr.com.br/wp-content/uploads/2020/04/catao.png" alt="seila" />
       </BodyBannerRight>
-    </Body>
+    </BodyBanner>
   )
 }
 

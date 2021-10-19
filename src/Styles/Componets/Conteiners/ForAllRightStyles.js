@@ -1,12 +1,18 @@
 import styled from 'styled-components'
+import BreakPoints from '../../../Constants/breakPoints'
 
-export const ContainerRight = styled.div`
+export const ForAllRight = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-left: 2vw;
   height: 120vh;
   width: 30vw;
+
+  ${`@media only screen and ${BreakPoints.device.cel}{
+  width: 100%;
+  margin-left: 0vw;
+}`}
 `
 
 export const ImageRight = styled.img`
@@ -15,7 +21,7 @@ export const ImageRight = styled.img`
   height: 70vh;
   border-radius: 60px;
   width: 90%;
-  transition:all ease 2s;
+  transition: all ease 2s;
 `
 export const Image2Right = styled.img`
   object-fit: cover;
@@ -24,6 +30,5 @@ export const Image2Right = styled.img`
   height: 50vh;
   border-radius: 70px;
   width: 90%;
-  transition:all ease 2s;
-
+  transition: all ease 2s;
 `

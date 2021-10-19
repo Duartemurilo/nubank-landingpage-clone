@@ -1,5 +1,5 @@
 import React from 'react'
-import { ButtonLogin, HeaderContainer, HeaderLeft, HeaderRight, NavLinks } from '../Styles/Componets/HeaderStyles'
+import { HeaderContainer, HeaderLeft, HeaderRight } from '../Styles/Componets/HeaderStyles'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown'
 import { LinkButton } from '../Styles/Global.js/Global'
 
@@ -9,29 +9,29 @@ function Header({ currentBackground }) {
       {currentBackground ? (
         <HeaderContainer style={{ backgroundColor: 'white', boxShadow: '0px 28px 50px -30px #9400D3' }}>
           <HeaderLeft>
-            <NavLinks>Nubank </NavLinks> <KeyboardArrowDownIcon style={{ cursor: 'pointer' }} />
-            <NavLinks>Conta Digital</NavLinks>
+            <a href="/">Nubank </a> <KeyboardArrowDownIcon style={{ cursor: 'pointer' }} />
+            <a href="Digital ">Conta Digital</a>
             <KeyboardArrowDownIcon style={{ cursor: 'pointer', marginRight: '-10px' }} />
-            <NavLinks>Para Você</NavLinks>
+            <a href="#forYou">Para Você</a>
             <KeyboardArrowDownIcon style={{ cursor: 'pointer' }} />
           </HeaderLeft>
           <HeaderRight>
             <LinkButton>Quero ser um Nubank</LinkButton>
-            <ButtonLogin>Login</ButtonLogin>
+            <p>Login</p>
           </HeaderRight>
         </HeaderContainer>
       ) : (
         <HeaderContainer>
           <HeaderLeft>
-            <NavLinks>Nubank </NavLinks> <KeyboardArrowDownIcon style={{ cursor: 'pointer' }} />
-            <NavLinks>Conta Digital</NavLinks>
+            <a href="id">Nubank </a> <KeyboardArrowDownIcon style={{ cursor: 'pointer' }} />
+            <a href="id">Conta Digital</a>
             <KeyboardArrowDownIcon style={{ cursor: 'pointer', marginRight: '-10px' }} />
-            <NavLinks>Para Você</NavLinks>
+            <a href="id">Para Você</a>
             <KeyboardArrowDownIcon style={{ cursor: 'pointer' }} />
           </HeaderLeft>
           <HeaderRight>
             <LinkButton>Quero ser um Nubank</LinkButton>
-            <ButtonLogin>Login</ButtonLogin>
+            <p>Login</p>
           </HeaderRight>
         </HeaderContainer>
       )}

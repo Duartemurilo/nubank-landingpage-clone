@@ -1,4 +1,17 @@
 import styled from 'styled-components'
+import BreakPoints from '../../Constants/breakPoints'
+
+export const BodyYield = styled.div`
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  ${`@media only screen and ${BreakPoints.device.cel}{
+     flex-direction: column;
+     height: 120vh;
+     margin-top: 15vh;
+}`}
+`
 
 export const YieldLeft = styled.div`
   display: flex;
@@ -32,6 +45,11 @@ export const YieldLeft = styled.div`
     margin-top: 0;
     margin-bottom: 0;
   }
+  ${`@media only screen and ${BreakPoints.device.cel}{
+
+  width: 94.5%;
+  padding-left: 15px;
+}`}
 `
 
 export const DepositContainer = styled.div`
@@ -68,6 +86,9 @@ export const ContainerValue = styled.div`
     margin-bottom: 0;
     margin-top: 0;
   }
+  ${`@media only screen and ${BreakPoints.device.cel}{
+    width: 110%;
+}`}
 `
 
 export const ButtomYield = styled.div`
@@ -82,6 +103,12 @@ export const ButtomYield = styled.div`
   color: white;
   font-size: 1.5vw;
   cursor: pointer;
+  ${`@media only screen and ${BreakPoints.device.cel}{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    font-size: 6vw;
+}`}
 `
 export const YieldRight = styled.div`
   display: flex;
@@ -98,6 +125,12 @@ export const YieldRight = styled.div`
     color: #232224;
     margin-bottom: 0;
   }
+  ${`@media only screen and ${BreakPoints.device.cel}{
+     flex-direction: row;
+     justify-content: center;
+    width:100%
+   
+}`}
 `
 
 export const YieldValues = styled.div`
@@ -107,6 +140,17 @@ export const YieldValues = styled.div`
   width: 80%;
   padding: 5px;
   padding-right: 50px;
+
+  ${`@media only screen and ${BreakPoints.device.cel}{
+ align-items: center;
+  padding:20px;
+  height:60vh;
+ h5{
+    font-size:30px
+  }
+    width:90%
+   
+}`}
 `
 
 export const BorderBottomYiel = styled.div`
@@ -122,6 +166,10 @@ export const TotalValue = styled.p`
   font-size: 80px;
   margin-bottom: 0px;
   margin-bottom: 0;
+  ${`@media only screen and ${BreakPoints.device.cel}{
+ font-size: 50px;
+
+}`}
 `
 
 export const Text = styled.p`
@@ -130,4 +178,8 @@ export const Text = styled.p`
   font-size: 20px;
   margin-top: 26vh;
   margin-bottom: 0;
+  ${`@media only screen and ${BreakPoints.device.cel}{
+
+     margin-top: 6vh;
+}`}
 `
