@@ -22,9 +22,14 @@
 <h3>WEB</h3>
 
 <p align="center">
- <img widht = '500'  src = "./src/Assents/videoPage.gif"/>
+ <img widht = '400'  src = "./src/Assents/videoPage.gif"/>
 </p>
 
+<h3>MOBILE</h3>
+
+<p align="center">
+ <img height = '400'  src = "./src/Assents/GravacaoTelaMobile.gif"/>
+</p>
 <h1>🚀  Como executar o projeto</h1>
 
 <p>Pré-requisitos:</p>
