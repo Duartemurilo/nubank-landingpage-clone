@@ -6,7 +6,7 @@ export const HomePageContainer = styled.div`
   flex-direction: column;
   width: 100%;
   background-color: #ededed;
-  overflow: hidden;
+  overflow-x: hidden;
 `
 
 export const Gradiente = styled.div`

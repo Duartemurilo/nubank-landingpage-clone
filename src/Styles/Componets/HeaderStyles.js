@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import BreakPoints from '../../Constants/breakPoints'
 
 export const HeaderContainer = styled.div`
   display: flex;
@@ -8,6 +9,10 @@ export const HeaderContainer = styled.div`
   height: 10vh;
   transition: all ease 2s;
   position: fixed;
+
+  ${`@media only screen and ${BreakPoints.device.cel}{
+   opacity:0
+  }`}
 `
 export const HeaderLeft = styled.div`
   display: flex;
@@ -22,6 +27,19 @@ export const HeaderLeft = styled.div`
   a {
     margin-right: -40px;
   }
+  a {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-right: -1;
+    font-size: 15px;
+    line-height: 140%;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+    color: #232224;
+  }
 `
 
 export const HeaderRight = styled.div`
@@ -30,29 +48,13 @@ export const HeaderRight = styled.div`
   width: 30%;
   height: 8vh;
   justify-content: flex-end;
-`
 
-export const NavLinks = styled.a`
-  font-family: 'Source Sans Pro', sans-serif;
-  margin-right: -1;
-  font-size: 15px;
-  line-height: 140%;
-  text-decoration: none;
-  cursor: pointer;
-  margin-left: 2vw;
-  display: flex;
-  align-items: center;
-  color: #232224;
-  :hover {
-    opacity: 0.9;
+  p {
+    margin-top: 2px;
+    margin-left: 2vw;
+    margin-right: 5vw;
+    margin-bottom: 0px;
+    font-size: 15px;
+    cursor: pointer;
   }
-`
-
-export const ButtonLogin = styled.p`
-  margin-top: 2px;
-  margin-left: 2vw;
-  margin-right: 5vw;
-  margin-bottom: 0px;
-  font-size: 15px;
-  cursor: pointer;
 `

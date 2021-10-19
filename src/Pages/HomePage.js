@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Banner from '../Components/Banner'
 import Header from '../Components/Header'
 import { HomePageContainer } from '../Styles/Pages/HomePageStyles'
-import Container from '../Components/Container/Container.js'
+import ForAll from '../Components/ForAll/ForAll.js'
 import RowBenifits from '../Components/BennefitsComponents/RowBeniits'
 import DigitalCount from '../Components/DigitalCount/DigitalCount'
 import Cards from '../Components/Cards'
@@ -14,7 +14,7 @@ function HomePage() {
 
   useEffect(() => {
     const scrollListener = () => {
-      if (window.scrollY > 10) {
+      if (window.scrollY > 9) {
         setBackground(true)
       } else {
         setBackground(false)
@@ -30,7 +30,7 @@ function HomePage() {
     <HomePageContainer>
       <Header currentBackground={whiteBackground} />
       <Banner />
-      <Container />
+      <ForAll />
       <RowBenifits />
       <DigitalCount />
       <Cards />

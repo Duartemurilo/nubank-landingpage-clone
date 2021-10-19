@@ -1,20 +1,21 @@
 import React from 'react'
 import {
+  BodyDigitalCount,
   DigitalCountLeft,
   DigitalCountRight,
   DigitalCountRightTop,
   InfoDigitalCount,
-} from '../../Styles/Componets/DigitalCountsStyle'
+} from '../../Styles/Componets/DigitalCount/DigitalCountsStyle'
 import Smartphone from '../../Images/imageedit_1_7339400014.png'
 
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward'
 
-import { Body, BottomBorder, ButtonBenefits, DivButtomBenfits } from '../../Styles/Global.js/Global'
+import { BottomBorder, ButtonBenefits, DivButtomBenfits } from '../../Styles/Global.js/Global'
 import DigitalCountBennefits from './DigitalCountBennefits'
 
 function DigitalCount() {
   return (
-    <Body style={{ justifyContent: 'center' }}>
+    <BodyDigitalCount>
       <DigitalCountLeft>
         <img src={Smartphone} alt="celular" />
       </DigitalCountLeft>
@@ -38,6 +39,7 @@ function DigitalCount() {
             aplicativo.
           </p>
         </DigitalCountRightTop>
+
         <InfoDigitalCount>
           <DigitalCountBennefits type="onlineAccount" />
           <DigitalCountBennefits type="2" />
@@ -52,7 +54,7 @@ function DigitalCount() {
           </div>
         </DivButtomBenfits>
       </DigitalCountRight>
-    </Body>
+    </BodyDigitalCount>
   )
 }
 
