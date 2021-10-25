@@ -10,11 +10,11 @@ function DigitalCountBennefits({ type }) {
     switch (type) {
       case 'onlineAccount':
         return (
-          <DivInfoBennefits>
+          <DivInfoBennefits style={{ width: '100%' }}>
             <IconDigitalCount>
               <SmartphoneIcon style={{ fontSize: 40 }} />
             </IconDigitalCount>
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', width: '60%' }}>
               <h4>Tudo na palma da sua mão</h4>
               <p>Conta digital. Você resolve tudo pelo App. Tudo.</p>
             </div>

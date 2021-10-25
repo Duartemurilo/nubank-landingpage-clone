@@ -10,6 +10,7 @@ export const BodyYield = styled.div`
      flex-direction: column;
      height: 120vh;
      margin-top: 15vh;
+     margin-bottom: 30vh;
 }`}
 `
 
@@ -40,7 +41,7 @@ export const YieldLeft = styled.div`
   p {
     color: #767576;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 140%;
     margin-top: 0;
     margin-bottom: 0;
@@ -179,7 +180,7 @@ export const Text = styled.p`
   margin-top: 26vh;
   margin-bottom: 0;
   ${`@media only screen and ${BreakPoints.device.cel}{
-
+    
      margin-top: 6vh;
 }`}
 `

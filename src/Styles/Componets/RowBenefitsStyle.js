@@ -13,7 +13,7 @@ export const BodyRow = styled.div`
 
   ${`@media only screen and ${BreakPoints.device.cel}{
   width: 100%;
-  margin-top: 85vh;
+  margin-top: 15vh;
   margin-left: 0vw;
   justify-content: flex-start;
   height: 120vh;
@@ -71,6 +71,7 @@ export const RowBenefitsLeft = styled.div`
     align-items: center;
    p{
      margin:10px;
+     font-size: 18px;
    }
    h2{
     margin-left:15vw;

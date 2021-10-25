@@ -12,6 +12,7 @@ export const ForAllRight = styled.div`
   ${`@media only screen and ${BreakPoints.device.cel}{
   width: 100%;
   margin-left: 0vw;
+
 }`}
 `
 

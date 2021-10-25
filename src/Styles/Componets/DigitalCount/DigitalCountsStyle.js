@@ -20,6 +20,9 @@ export const BodyDigitalCount = styled.div`
 
   ${`@media only screen and ${BreakPoints.device.cel}{
   flex-direction: column;
+  p{
+    font-size: 18px;
+  }
 }`}
 `
 
@@ -103,8 +106,8 @@ export const DigitalCountRightTop = styled.div`
   p {
     color: #767576;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    line-height: 140%;
+    font-size: 18px;
+    line-height: 120%;
   }
 }`}
 `
@@ -114,10 +117,12 @@ export const InfoDigitalCount = styled.div`
   justify-content: space-between;
   margin-top: 10vh;
   width: 40vw;
+
   height: 50vh;
   ${`@media only screen and ${BreakPoints.device.cel}{
   width: 100%;
   height: 40vh;
   margin-top:4vh;
+
 }`}
 `
