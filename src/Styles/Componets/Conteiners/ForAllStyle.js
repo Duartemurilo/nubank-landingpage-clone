@@ -5,8 +5,10 @@ export const BodyForAll = styled.div`
   display: flex;
   width: 100%;
   height: 100vh;
+
   ${`@media only screen and ${BreakPoints.device.cel}{
   flex-direction: column;
-  height: 230vh;
+  height: 100vh;
+
 }`}
 `

@@ -25,13 +25,19 @@ export const ForAllLeftDIV = styled.div`
   width: 33%;
   ${`@media only screen and ${BreakPoints.device.cel}{
     width: 100%;
-    padding-left:2px;
+    
+    p {
+    font-size: 20px;
+    color: #767576;
+  }
+    padding:0px;
+    padding-left:15px;
     h1{
       font-size: 40px;
    
     }
     #DivButtomBenfits{
-      margin-left:30px;
+     
       width: 90%;
     }
   }`}
@@ -40,7 +46,7 @@ export const ForAllLeftDIV = styled.div`
 export const ContainerResume = styled.div`
   ${`@media only screen and ${BreakPoints.device.cel}{
     width: 95%;
-    margin-left:20px;
+   
   }`}
 `
 
@@ -48,9 +54,8 @@ export const ContainerBenefits = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-
   ${`@media only screen and ${BreakPoints.device.cel}{
-    width: 95%;
-
+    width: 100%;
+   
   }`}
 `

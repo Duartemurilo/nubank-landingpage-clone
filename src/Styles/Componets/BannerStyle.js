@@ -22,7 +22,9 @@ export const BodyBanner = styled.div`
   ${`@media only screen and ${BreakPoints.device.cel}{
     flex-direction: column;
     align-items: center;
-
+    p{
+    font-size: 18px;
+  }
   }`}
 `
 

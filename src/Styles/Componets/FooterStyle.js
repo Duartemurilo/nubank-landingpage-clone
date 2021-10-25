@@ -32,24 +32,25 @@ export const FooterContainer = styled.div`
     font-family: 'Sora, sans-serif';
   }
   ${`@media only screen and ${BreakPoints.device.cel}{
-    flex-direction: column;
-    font-size: 25px;
-     padding-left: 0vw;
-     margin-top: 30vh;
-     width: 100%;
-     gap:20px;
-     #braboMurilo {
-      width: 200px;
-      margin-left:20px;
-      p{
-        margin-bottom:0;
-      }
-      #murilo{
-        margin-left:10px;
-        margin-top:0;
-        margin-bottom:15px;
-      }
-      color:white;
+      flex-direction: column;
+      bottom:0%;
+      padding-left: 0vw;
+
+      width: 100%;
+      gap:20px;
+      #braboMurilo {
+        width: 200px;
+        margin-left:20px;
+        p{
+          margin-bottom:0;
+          font-size: 18px;
+        }
+        #murilo{
+          margin-left:10px;
+          margin-top:0;
+          margin-bottom:15px;
+        }
+        color:white;
   }
 }`}
 `
@@ -78,5 +79,6 @@ export const SocialMidias = styled.div`
     margin-top:1vh
     margin-left: 0px;
     margin-right:290px;
+ 
 }`}
 `

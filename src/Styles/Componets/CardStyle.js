@@ -5,11 +5,11 @@ export const BodyCards = styled.div`
   display: flex;
   width: 100%;
   height: 100vh;
-
   ${`@media only screen and ${BreakPoints.device.cel}{
   flex-direction: column;
-  height: 110vh;
+  height: 120vh;
   margin-top: 20vh;
+  
 }`}
 `
 
@@ -48,11 +48,14 @@ export const CardLeft = styled.div`
   }
   ${`@media only screen and ${BreakPoints.device.cel}{
   padding-left: 20px;
-  width: 96%;
+  height: 110%;
+  width: 92%;
   margin-top: 10px;
+  
   h2 {
     margin-top: 10px;
     margin-bottom: 18px;
+   
   }
 }`}
 `
@@ -69,7 +72,7 @@ export const RowContainer = styled.div`
   width: 95%;
   gap:20px;
   margin-top: 4vh;
-  height: 10vh;
+  height: 15vh;
 }`}
 `
 export const CardRight = styled.div`
@@ -86,6 +89,7 @@ export const CardRight = styled.div`
      width: 100%;
      align-items: center;
      justify-content: center;
+     
 }`}
 `
 export const IconCards = styled.div`

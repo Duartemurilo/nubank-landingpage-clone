@@ -19,10 +19,12 @@ export const DivInfoBennefits = styled.div`
     color: #767576;
   }
   ${`@media only screen and ${BreakPoints.device.cel}{
-
      width: 95%;
      height: 100%;
      gap:20px;
+     p {
+    font-size: 17px;
+  }
 }`}
 `
 export const IconDigitalCount = styled.div`
@@ -35,8 +37,10 @@ export const IconDigitalCount = styled.div`
   border-radius: 10px;
   color: #9400d3;
   margin-bottom: 0;
+
   ${`@media only screen and ${BreakPoints.device.cel}{
-     width: 25vw;
-  
+     width: 14%;
+     max-width: 14%;
+     min-width: 14%;
 }`}
 `
