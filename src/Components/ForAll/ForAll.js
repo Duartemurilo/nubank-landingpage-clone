@@ -1,28 +1,25 @@
-import React from 'react'
-import { BodyForAll } from '../../Styles/Componets/Conteiners/ForAllStyle'
-import Center from './Center'
-import Left from './Left'
-import Right from './Right'
-import useMediaQuery from '@material-ui/core/useMediaQuery'
+import React from "react";
+import { Container, Main, RightSide, Section } from "./style";
+import Left from "./Left/Left";
+import Center from "./Center/Center";
+import RightTop from "./RightTop/RightTop";
+import RightBottom from "./RightBottom/RightBottom";
 
-function Container() {
-  const matches = useMediaQuery('(min-width:600px)')
-
+function ForAll() {
   return (
-    <>
-      {matches ? (
-        <BodyForAll id="forYou">
-          <Left />
+    <Container id="forYou">
+      <Main>
+        <Left />
+        <Section>
           <Center />
-          <Right />
-        </BodyForAll>
-      ) : (
-        <BodyForAll id="forYou">
-          <Left />
-        </BodyForAll>
-      )}{' '}
-    </>
-  )
+          <RightSide>
+            <RightTop />
+            <RightBottom />
+          </RightSide>
+        </Section>
+      </Main>
+    </Container>
+  );
 }
 
-export default Container
+export default ForAll;

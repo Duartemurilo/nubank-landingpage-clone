@@ -1,61 +1,49 @@
-import React from 'react'
-import {
-  BodyDigitalCount,
-  DigitalCountLeft,
-  DigitalCountRight,
-  DigitalCountRightTop,
-  InfoDigitalCount,
-} from '../../Styles/Componets/DigitalCount/DigitalCountsStyle'
-import Smartphone from '../../Images/imageedit_1_7339400014.png'
-
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward'
-
-import { BottomBorder, ButtonBenefits, DivButtomBenfits } from '../../Styles/Global.js/Global'
-import DigitalCountBennefits from './DigitalCountBennefits'
+import React from "react";
+import { Container, Main, PhoneContainer, CardIcon, Section } from "./style";
+import Smartphone from "../../Images/imageedit_1_7339400014.png";
+import icon1 from "../../Images/icon-check.svg";
+import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
+import iconConfig from "../../Images/icon-config.svg";
+import Bennefits from "./Bennefits";
+import SlideBtn from "../SlideBtn/SlideBtn";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 function DigitalCount() {
-  return (
-    <BodyDigitalCount>
-      <DigitalCountLeft>
-        <img src={Smartphone} alt="celular" />
-      </DigitalCountLeft>
-      <DigitalCountRight>
-        <DigitalCountRightTop>
-          <h5>CONTA DIGITAL</h5>
-          <p
-            style={{
-              marginBottom: 0,
-              marginTop: '1px',
-              fontSize: '48px',
-              color: '#232224',
-              fontFamily: 'Sora, sans-serif',
-            }}
-          >
-            Tudo pelo App.
-          </p>
-          <p>
-            Nossa conta digital com mais de 20 milhões de clientes em todo o Brasil. Pague suas contas, ajuste seu
-            limite, bloqueie e desbloqueie o cartão quando quiser e acompanhe cada movimentação em tempo real. Tudo pelo
-            aplicativo.
-          </p>
-        </DigitalCountRightTop>
+  const largura = useMediaQuery("(max-width:1000px)");
 
-        <InfoDigitalCount>
-          <DigitalCountBennefits type="onlineAccount" />
-          <DigitalCountBennefits type="2" />
-          <DigitalCountBennefits type="3" />
-          <DigitalCountBennefits type="4" />
-        </InfoDigitalCount>
-        <DivButtomBenfits>
-          <ArrowForwardIcon />
-          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-            <ButtonBenefits>Confira os beneficios</ButtonBenefits>
-            <BottomBorder></BottomBorder>
-          </div>
-        </DivButtomBenfits>
-      </DigitalCountRight>
-    </BodyDigitalCount>
-  )
+  console.log(largura);
+  return (
+    <Container>
+      <Main>
+        <PhoneContainer>
+          <img className="phone" src={Smartphone} alt="" />
+          <CardIcon id="money">
+            <AttachMoneyIcon
+              style={{ fontSize: largura === false ? 38 : 38 }}
+            />
+          </CardIcon>
+          <CardIcon id="protect">
+            <img src={iconConfig} alt="" />
+          </CardIcon>
+          <CardIcon id="check">
+            <img src={icon1} alt="" />
+          </CardIcon>
+        </PhoneContainer>
+        <Section>
+          <h5>Conta Digital</h5>
+          <h2>Tudo pelo app</h2>
+          <p>
+            Nossa conta digital com mais de 20 milhões de clientes em todo o
+            Brasil. Pague suas contas, ajuste seu limite, bloqueie e desbloqueie
+            o cartão quando quiser e acompanhe cada movimentação em tempo real.
+            Tudo pelo aplicativo.
+          </p>
+          <Bennefits />
+          <SlideBtn text={"Segura e sem complicações"} />
+        </Section>
+      </Main>
+    </Container>
+  );
 }
 
-export default DigitalCount
+export default DigitalCount;
